@@ -61,6 +61,7 @@ function startup(data, reason) {
 
     Components.utils.import("chrome://tbsync/content/tbsync.jsm");
     Components.utils.import("chrome://tbsync/content/OverlayManager.jsm");
+    Components.utils.import("chrome://tbsync/content/DNS.jsm");
 
     //Map local writeAsyncJSON into tbSync
     tbSync.writeAsyncJSON = writeAsyncJSON;
